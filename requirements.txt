@@ -1,0 +1,22 @@
+# Crypto Market Intelligence Agent - Requirements
+# Python 3.11+
+
+# Web Framework
+fastapi==0.109.2
+uvicorn[standard]==0.27.1
+pydantic==2.6.1
+
+# AWS Bedrock
+boto3>=1.34.51
+langchain-aws==0.1.3
+
+# LangChain
+langchain==0.1.9
+langchain-community==0.0.24
+langchainhub==0.1.14
+
+# HTTP Client
+requests==2.31.0
+
+# Utilities
+python-dotenv==1.0.1
